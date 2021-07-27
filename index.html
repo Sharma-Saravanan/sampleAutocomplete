@@ -31,7 +31,8 @@ https://www.tooplate.com/view/2114-pixie
             resource.defer = "true";
             resource.src = "https://dev2-chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://dev2-chatbot.agentz.ai&title=title&businessAgent=e2dd1eda-ac3e-4835-8889-8d79ee775319";
             var script = document.getElementsByTagName('script')[0];
-            script.parentNode.insertBefore(resource, script);
+            var sp1 =  document.createElement('script');
+            script.parentNode.insertBefore(sp1, script);
         }
     }, false);
     </script>
